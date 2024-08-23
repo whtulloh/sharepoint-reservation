@@ -1,3 +1,8 @@
+# Features
+- Read the value from Sharepoint list
+- Set checkin date, checkout date, hotelname
+- Update the value to the Sharepoint list
+
 # Installation
 ### Create env
 `py -3 -m venv .venv`
