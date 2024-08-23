@@ -1,0 +1,10 @@
+services: 
+  prod:
+    build:
+      context: .
+    image: rsvdemo
+    container_name: rsvdemo
+    volumes: 
+      - ./:/var/www/rsvdemo
+    ports:
+      - '8045:80'
